@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #f0f0f0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+H3, H1, H2 {
+  font-family: Gill Sans Extrabold, sans-serif;
+  font-weight: bold;
+  color: #363636;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  font-family: Gill Sans Extrabold, sans-serif;
+  color: #646363;
+  font-size: 13px;
+  line-height: 1.8;
+  padding: 15px;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 0.22);
+}
+
+.navbar_conta {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 7px;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar img {
+  height: 45px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.span_nav {
+  background-color: #fff;
+}
+
+.span_nav :hover {
+  color: rgb(231, 74, 60);
+}
+
+a {
+  text-decoration: none;
+}
+
+.span_menyu {
+  background-color: #fff;
+  font-family: Gill Sans Extrabold, sans-serif;
+  font-weight: bold;
+  color: #4d4b4b;
+  margin: 0 50px 0 0;
+}
+
+.profill_banner_small img {
+  width: 100%;
+  border: 10px solid gray;
+}
+
+.profill_banner_down {
+  text-align: center;
+  padding: 20px;
+}
+
+.tipogra {
+  display: flex;
+  background-color: #e8e8e8;
+  padding-left: 50px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menyu_item {
+  display: flex;
+}
+
+.search_ava {
+  display: flex;
+}
+
+.container_app {
+  margin-top: 30px;
+}
+
+.bgcolor {
+  height: 100%;
+  width: 100%;
+  background-color: brown;
+}
+
+.container_app_bg {
+  background-color: #e8e8e8;
+}
+
+.paper_send_news {
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
