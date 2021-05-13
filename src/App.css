@@ -107,5 +107,177 @@ a {
 .paper_send_news {
   display: flex;
   align-items: center;
+  padding: 30px;
+}
+
+.paper_send_news_d {
+  display: flex;
+  align-items: center;
   padding: 20px;
+  margin-top: 25px;
+}
+
+.serch_icon_ava {
+  display: flex;
+  align-items: center;
+}
+
+.paper_send_news_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paper_send_news_menu_profile {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+.paper_send_news_menu_list {
+  float: left;
+}
+
+.paper_send_news_secund {
+  padding: 30px;
+  margin-top: 25px;
+}
+
+.p_margin {
+  padding: 20px 0 20px 0;
+}
+
+.bottom_comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.bottom_comment_sploit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom_comment_sploit_p {
+  padding: 0px;
+}
+
+.news_banner_small img {
+  width: 100%;
+}
+
+.paper_send_news_third {
+  padding: 30px;
+}
+
+.friend_maybe {
+  display: flex;
+  padding: 10px 0 10px 0;
+}
+
+.friend_maybe_info {
+  padding: 0 0 0 20px;
+}
+
+.friend_maybe_info_p {
+  padding: 0;
+  font-size: 10px;
+}
+
+.friend_maybe_h {
+  padding: 10px 0 30px 0;
+}
+
+.paper_send_news_third_sec {
+  padding: 30px;
+  margin: 25px 0 0 0;
+}
+
+.friend_maybe_h_padding img {
+  width: 100%;
+}
+
+.friend_maybe_h_padding h3 {
+  padding-bottom: 30px;
+}
+
+.friend_maybe_like {
+  display: flex;
+  padding: 10px 0 10px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: #4d4b4b;
+}
+
+.fullscreen {
+  width: 130%;
+  margin: -29px -10px 0 -70px;
+}
+
+.paper_friends_h1 {
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.paper_friends_ul_div ul {
+  padding-top: 30px;
+}
+
+.paper_friends_ul_div ul li {
+  list-style-type: none;
+  display: inline;
+  cursor: pointer;
+  padding: 20px 10px 0 10px;
+  font-weight: bold;
+}
+
+.paper_friends_ul_div ul li:hover {
+  color: rgb(231, 74, 60);
+  transition: .6s;
+}
+
+.paper_friends_paper {
+  padding: 25px;
+  margin-bottom: 24px;
+}
+
+.paper_friends_paper:hover {
+  background-color: rgb(231, 74, 60);
+  transition: .3s;
+  color: #fff;
+}
+
+.paper_friends_paper_pp {
+  padding-left: 20px;
+}
+
+.paper_friends_paper_p {
+  font-family: Gill Sans Extrabold, sans-serif;
+  font-size: 13px;
+  line-height: 1.8;
+  padding: 0;
+}
+
+.paper_friends_paperpaper {
+  display: flex;
+}
+
+.paper_friends_chat_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(227, 229, 230);
+}
+
+.paper_friends_chat_header_info {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
 }

@@ -2,9 +2,13 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
-import Button from '@material-ui/core/Button';
-import CloudUploadIcon from '@material-ui/icons/CloudUpload';
 import TextField from '@material-ui/core/TextField';
+import SecondColumnNews from './SecondColumnNews';
+
+import AddCircleIcon from '@material-ui/icons/AddCircle';
+import grey from '@material-ui/core/colors/grey';
+
+const deepOra = grey[400]; // #f44336
 
 const useStyles = makeStyles((theme) => ({
   large: {
@@ -22,9 +26,9 @@ const SecondColumn = () => {
         </div>
         <TextField
           id="standard-full-width"
-          label="Label"
+          label="What's news"
           style={{ margin: 8 }}
-          placeholder="Placeholder"
+          placeholder="Say Something"
           fullWidth
           margin="normal"
           InputLabelProps={{
@@ -33,15 +37,11 @@ const SecondColumn = () => {
         />
 
         <div>
-          <Button
-            variant="contained"
-            color="default"
-            className={classes.button}
-            startIcon={<CloudUploadIcon />}>
-            Upload
-          </Button>
+          <AddCircleIcon style={{ color: deepOra, fontSize: 40 }} />
         </div>
       </Paper>
+
+      <SecondColumnNews />
     </div>
   );
 };
