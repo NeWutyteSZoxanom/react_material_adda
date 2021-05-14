@@ -8,6 +8,8 @@ import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import NavbarMobile from './NavbarMobile';
 import { NavLink } from 'react-router-dom';
+import IconButton from '@material-ui/core/IconButton';
+import Badge from '@material-ui/core/Badge';
 
 const useStyles = makeStyles((theme) => ({
   search: {
@@ -66,11 +68,14 @@ const NavBar = () => {
               <div className="span_nav">
                 <a>
                   <span className="span_menyu">
-                    <NavLink to="/" className="nav_link">
-                      Home
-                    </NavLink>
+                    <Badge badgeContent={4} color="error">
+                      <NavLink to="/" className="nav_link">
+                        Home
+                      </NavLink>
+                    </Badge>
                   </span>
                 </a>
+
                 <a>
                   <span className="span_menyu">
                     <NavLink to="/profile" className="nav_link">
@@ -80,9 +85,11 @@ const NavBar = () => {
                 </a>
                 <a>
                   <span className="span_menyu">
-                    <NavLink to="/notification" className="nav_link">
-                      Notification
-                    </NavLink>
+                    <Badge badgeContent={100} color="error">
+                      <NavLink to="/notification" className="nav_link">
+                        Notification
+                      </NavLink>{' '}
+                    </Badge>
                   </span>
                 </a>
               </div>

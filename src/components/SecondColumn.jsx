@@ -4,9 +4,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
 import TextField from '@material-ui/core/TextField';
 import SecondColumnNews from './SecondColumnNews';
-
+import AddCommentOutlinedIcon from '@material-ui/icons/AddCommentOutlined';
 import AddCircleIcon from '@material-ui/icons/AddCircle';
 import grey from '@material-ui/core/colors/grey';
+import IconButton from '@material-ui/core/IconButton';
 
 const deepOra = grey[400]; // #f44336
 
@@ -37,7 +38,9 @@ const SecondColumn = () => {
         />
 
         <div>
-          <AddCircleIcon style={{ color: deepOra, fontSize: 40 }} />
+          <IconButton>
+            <AddCommentOutlinedIcon style={{ color: deepOra, fontSize: 30 }} />
+          </IconButton>
         </div>
       </Paper>
 
